@@ -4,9 +4,9 @@ This project explores machine learning and optimization techniques to predict de
 
 ## Dataset
 
-The dataset used is publicly available on Kaggle:  
-[DoorDash ETA Prediction Dataset](https://www.kaggle.com/datasets/dharun4772/doordash-eta-prediction/data)
-We also include the dataset as `historical_data.csv` in the repository
+The dataset used is publicly available on Kaggle:  [DoorDash ETA Prediction Dataset](https://www.kaggle.com/datasets/dharun4772/doordash-eta-prediction/data)
+
+We also include the dataset as `historical_data.csv` in the repository.
 
 It contains ~197,000 historical delivery records with metadata such as:
 - Timestamps (created_at, actual_delivery_time)
