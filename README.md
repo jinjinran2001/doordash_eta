@@ -2,7 +2,7 @@
 
 This project explores machine learning and optimization techniques to predict delivery time (ETA) for DoorDash food orders. We benchmark multiple models and explore computational optimizations including parallel processing and GPU acceleration.
 
-## 📁 Dataset
+## Dataset
 
 The dataset used is publicly available on Kaggle:  
 [DoorDash ETA Prediction Dataset](https://www.kaggle.com/datasets/dharun4772/doordash-eta-prediction/data)
@@ -20,7 +20,7 @@ It contains ~197,000 historical delivery records with metadata such as:
 - **Gradient Boosting (XGBoost, LightGBM, CatBoost, HistGradientBoosting)**
 - **Neural Network (PyTorch)**
 
-## ⚙Optimization Techniques
+## Optimization Techniques
 
 - Internal parallelism (e.g. `n_jobs=-1` in Random Forest)
 - External parallelism with `joblib.Parallel`
